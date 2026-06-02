@@ -1,0 +1,17 @@
+/node_modules
+/.next
+/out
+/build
+next-env.d.ts
+.DS_Store
+*.pem
+.env*.local
+.vercel
+*.tsbuildinfo
+
+# Acervo bruto / material de origem (não faz parte do app)
+STEEL ARTE fotos/
+APRESENTAÇÃO STEEL ARTE.pdf
+
+# Screenshots temporários de validação
+public/images/_*
