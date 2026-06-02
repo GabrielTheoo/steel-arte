@@ -79,6 +79,12 @@ if (process.env.STEPSCROLL === "1") {
   await cmd(ws, "Runtime.evaluate", { expression: "window.scrollTo(0, 0)" }, sessionId);
   await sleep(800);
 }
+if (process.env.CLICKSEL) {
+  await cmd(ws, "Runtime.evaluate", {
+    expression: `document.querySelector(${JSON.stringify(process.env.CLICKSEL)})?.click()`,
+  }, sessionId);
+  await sleep(900);
+}
 if (process.env.SCROLL) {
   await cmd(ws, "Runtime.evaluate", {
     expression: `window.scrollTo(0, ${Number(process.env.SCROLL)})`,
