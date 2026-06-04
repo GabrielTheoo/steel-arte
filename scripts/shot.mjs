@@ -61,6 +61,8 @@ const { sessionId } = await cmd(ws, "Target.attachToTarget", { targetId, flatten
 
 await cmd(ws, "Page.enable", {}, sessionId);
 await cmd(ws, "Runtime.enable", {}, sessionId);
+await cmd(ws, "Network.enable", {}, sessionId);
+await cmd(ws, "Network.setCacheDisabled", { cacheDisabled: true }, sessionId);
 await cmd(ws, "Emulation.setDeviceMetricsOverride", {
   width, height, deviceScaleFactor: Number(process.env.DPR || 2), mobile,
 }, sessionId);

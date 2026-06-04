@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero.jpg"
-          alt="Fachada com painel artístico em metal vazado a laser, iluminado por luz dourada"
+          alt="Fachada com painéis artísticos em metal vazado a laser com padrão de folhas e portal em mármore"
           fill
           priority
           sizes="100vw"
@@ -17,8 +17,8 @@ export default function Hero() {
       </div>
 
       {/* Scrims for legibility + mood */}
-      <div className="absolute inset-0 bg-gradient-to-r from-ink/85 via-ink/45 to-ink/20" />
-      <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/55 to-ink/25" />
+      <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-transparent" />
       <div className="absolute inset-0 [background:radial-gradient(120%_80%_at_75%_55%,rgba(178,147,94,0.16),transparent_60%)]" />
 
       {/* Content */}
