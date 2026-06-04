@@ -39,22 +39,22 @@ export default function Process() {
           </h2>
         </Reveal>
 
-        <ol className="mt-16 grid grid-cols-1 gap-px border-t border-ink/15 sm:grid-cols-2 lg:grid-cols-5">
+        <ol className="mt-16 -mx-6 grid grid-cols-1 border-t border-ink/15 sm:grid-cols-2 lg:grid-cols-5">
           {STEPS.map((s, i) => (
             <Reveal
               as="li"
               key={s.n}
               delay={i * 0.08}
-              className="group relative border-b border-ink/15 pt-8 sm:border-r lg:border-b-0 lg:[&:nth-child(5)]:border-r-0"
+              className="group relative border-b border-ink/15 pt-9 lg:border-b-0 lg:border-r lg:[&:nth-child(5)]:border-r-0"
             >
-              <div className="pr-6">
+              <div className="px-6 pb-10">
                 <span className="font-display text-5xl font-light text-ink/25 transition-colors duration-500 group-hover:text-corten">
                   {s.n}
                 </span>
                 <h3 className="mt-5 text-lg font-medium tracking-wide">
                   {s.title}
                 </h3>
-                <p className="mt-3 max-w-[26ch] pb-8 text-sm leading-relaxed text-graphite">
+                <p className="mt-3 max-w-[26ch] text-sm leading-relaxed text-graphite">
                   {s.desc}
                 </p>
               </div>

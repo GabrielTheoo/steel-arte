@@ -13,15 +13,15 @@ const NAV = [
   { label: "Contato", href: "/contato" },
 ];
 
-export default function SiteHeader() {
-  const [scrolled, setScrolled] = useState(false);
+export default function SiteHeader({ solid = false }: { solid?: boolean }) {
+  const [scrolled, setScrolled] = useState(solid);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
+    const onScroll = () => setScrolled(solid || window.scrollY > 40);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [solid]);
 
   return (
     <header className="fixed inset-x-0 top-0 z-50">
