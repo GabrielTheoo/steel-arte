@@ -70,7 +70,12 @@ export const PRODUCTS: Product[] = [
         img: "/images/brise-seg.jpg",
       },
     ],
-    gallery: ["/images/brise-retrofit-2.jpg", "/images/brise-seg-2.jpg", "/images/gal-8.jpg"],
+    gallery: [
+      "/images/brise-retrofit-2.jpg",
+      "/images/brise-personalizado.jpg",
+      "/images/brises-correr.jpg",
+      "/images/brise-seg-2.jpg",
+    ],
   },
   {
     slug: "portoes-exclusivos",
@@ -82,7 +87,7 @@ export const PRODUCTS: Product[] = [
       "Desenvolvidos sob medida, em diálogo com o projeto arquitetônico.",
     ],
     applications: ["Residencial", "Corporativo", "Personalizado"],
-    gallery: ["/images/prt-portoes-2.jpg"],
+    gallery: ["/images/prt-portoes-2.jpg", "/images/prod-portoes.jpg"],
   },
   {
     slug: "portas-arquitetonicas",
