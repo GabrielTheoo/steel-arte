@@ -5,7 +5,7 @@ import { SITE, whatsappLink } from "@/lib/site";
 const PRODUCTS = [
   { label: "Painéis Artísticos", href: "/produtos/paineis-artisticos" },
   { label: "Divisórias Decorativas", href: "/produtos/divisorias-decorativas" },
-  { label: "Brises de Segurança", href: "/produtos/brises-de-seguranca" },
+  { label: "Brise", href: "/produtos/brise" },
   { label: "Pergolados", href: "/produtos/pergolados" },
   { label: "Objetos de Decoração", href: "/produtos/objetos-de-decoracao" },
 ];

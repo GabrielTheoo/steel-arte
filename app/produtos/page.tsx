@@ -29,7 +29,7 @@ const CATEGORIES: Category[] = [
     line: "O metal como superfície de arte — padrões exclusivos recortados a laser que transformam superfícies em peças autorais.",
     tags: ["Fachadas", "Halls de entrada", "Áreas gourmet", "Corporativo", "Hotéis"],
     href: "/produtos/paineis-artisticos",
-    img: "/images/prod-paineis.jpg",
+    img: "/images/pa-main.jpg",
   },
   {
     n: "02",
@@ -41,11 +41,11 @@ const CATEGORIES: Category[] = [
   },
   {
     n: "03",
-    name: "Brises de Segurança",
-    line: "Design aliado à proteção — controlam a luz e protegem sem abrir mão do desenho.",
-    tags: ["Controle solar", "Privacidade", "Segurança", "Ventilação"],
-    href: "/produtos/brises-de-seguranca",
-    img: "/images/prod-brises.jpg",
+    name: "Brise",
+    line: "Controle de luz e proteção com desenho — nas linhas Retrofit e de Segurança.",
+    tags: ["Controle solar", "Privacidade", "Segurança", "Retrofit de fachada"],
+    href: "/produtos/brise",
+    img: "/images/brise-seg-1.jpg",
   },
   {
     n: "04",
@@ -53,7 +53,7 @@ const CATEGORIES: Category[] = [
     line: "A primeira impressão da arquitetura — projetados como parte da identidade da fachada.",
     tags: ["Residencial", "Corporativo", "Personalizado"],
     href: "/produtos/portoes-exclusivos",
-    img: "/images/prod-portoes.jpg",
+    img: "/images/prt-portoes.jpg",
   },
   {
     n: "05",
@@ -61,7 +61,7 @@ const CATEGORIES: Category[] = [
     line: "Portas que deixam de ser passagem e se tornam protagonista do projeto.",
     tags: ["Entrada", "Pivotantes", "Autorais"],
     href: "/produtos/portas-arquitetonicas",
-    img: "/images/prod-portas.jpg",
+    img: "/images/prt-portas.jpg",
   },
   {
     n: "06",
@@ -69,7 +69,7 @@ const CATEGORIES: Category[] = [
     line: "Segurança com assinatura — protegem e desenham o espaço em aço, ferro e alumínio.",
     tags: ["Escadas", "Sacadas", "Mezaninos"],
     href: "/produtos/guarda-corpos",
-    img: "/images/prod-guardacorpos.jpg",
+    img: "/images/gcn-1.jpg",
   },
   {
     n: "07",
@@ -77,7 +77,7 @@ const CATEGORIES: Category[] = [
     line: "Sombreamento com design contemporâneo — filtram a luz e criam atmosfera.",
     tags: ["Controle de luz", "Áreas externas", "Lounge", "Piscina"],
     href: "/produtos/pergolados",
-    img: "/images/prod-pergolados.jpg",
+    img: "/images/perg-main.jpg",
   },
   {
     n: "08",
@@ -85,7 +85,7 @@ const CATEGORIES: Category[] = [
     line: "Arte metálica em escala íntima — peças exclusivas que levam a assinatura Steel Arte para dentro do ambiente.",
     tags: ["Quadros metálicos", "Painéis decorativos", "Peças exclusivas"],
     href: "/produtos/objetos-de-decoracao",
-    img: "/images/prod-objetos.jpg",
+    img: "/images/obj-main.jpg",
   },
 ];
 

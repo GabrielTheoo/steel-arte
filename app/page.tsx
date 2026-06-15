@@ -8,6 +8,7 @@ import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import Reveal from "@/components/Reveal";
+import ColosseumVector from "@/components/ColosseumVector";
 
 export default function Home() {
   return (
@@ -17,8 +18,9 @@ export default function Home() {
         <Hero />
 
         {/* Nossa História — prévia (seção clara) */}
-        <section className="bg-paper text-ink">
-          <div className="mx-auto max-w-[1600px] px-6 py-28 md:px-12 md:py-40">
+        <section className="relative overflow-hidden bg-paper text-ink">
+          <ColosseumVector className="pointer-events-none absolute -bottom-4 right-[-40px] w-[520px] max-w-[62%] text-corten/20 md:right-4 md:w-[660px]" />
+          <div className="relative mx-auto max-w-[1600px] px-6 py-28 md:px-12 md:py-40">
             <div className="grid gap-14 md:grid-cols-12 md:gap-10">
               <Reveal className="md:col-span-4">
                 <p className="label text-corten">Nossa História</p>

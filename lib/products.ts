@@ -1,3 +1,5 @@
+export type Subtype = { name: string; desc: string; img: string };
+
 export type Product = {
   slug: string;
   name: string;
@@ -6,6 +8,7 @@ export type Product = {
   intro: string[];
   applications: string[];
   gallery: string[];
+  subtypes?: Subtype[];
 };
 
 export const PRODUCTS: Product[] = [
@@ -13,7 +16,7 @@ export const PRODUCTS: Product[] = [
     slug: "paineis-artisticos",
     name: "Painéis Artísticos",
     tagline: "O metal como superfície de arte.",
-    headerImage: "/images/paineis-1.jpg",
+    headerImage: "/images/pa-main.jpg",
     intro: [
       "Painéis decorativos com padrões exclusivos, recortados a laser, que transformam superfícies inteiras em peças autorais. Cada desenho é criado para um único projeto — da fachada que define a identidade da casa ao painel que assina um hall corporativo.",
       "Trabalhamos com aço corten, aço galvanizado com pintura eletrostática e acabamentos premium, garantindo durabilidade e presença estética em qualquer ambiente.",
@@ -46,64 +49,77 @@ export const PRODUCTS: Product[] = [
     ],
   },
   {
-    slug: "brises-de-seguranca",
-    name: "Brises de Segurança",
-    tagline: "Design aliado à proteção.",
-    headerImage: "/images/prod-brises.jpg",
+    slug: "brise",
+    name: "Brise",
+    tagline: "Controle de luz e proteção com desenho.",
+    headerImage: "/images/brise-seg-1.jpg",
     intro: [
-      "Brises que unem estética e função — controlam a incidência solar e ampliam a privacidade sem abrir mão do desenho. Protegem o ambiente e qualificam a fachada.",
-      "O resultado é conforto térmico, segurança e ventilação, com a assinatura visual da Steel Arte.",
+      "Brises que filtram a luz, ampliam a privacidade e qualificam a fachada — unindo desempenho e desenho. Da requalificação de fachadas existentes à proteção sob medida, tratamos o brise como elemento de composição arquitetônica.",
+      "Oferecemos duas linhas, para necessidades distintas: o Brise Retrofit, para renovar fachadas existentes, e o Brise de Segurança, que alia proteção e estética.",
     ],
-    applications: ["Controle solar", "Privacidade", "Segurança", "Ventilação"],
-    gallery: ["/images/gal-8.jpg", "/images/brise-2.jpg", "/images/brise-3.jpg"],
+    applications: ["Controle solar", "Privacidade", "Segurança", "Ventilação", "Retrofit de fachada"],
+    subtypes: [
+      {
+        name: "Brise Retrofit",
+        desc: "Requalificação de fachadas existentes — painéis aplicados sobre a estrutura atual, renovando a estética e o desempenho do edifício sem obra pesada.",
+        img: "/images/brise-retrofit.jpg",
+      },
+      {
+        name: "Brise de Segurança",
+        desc: "Brises que unem proteção e desenho — controlam a luz, ampliam a privacidade e reforçam a segurança da fachada.",
+        img: "/images/brise-seg.jpg",
+      },
+    ],
+    gallery: ["/images/brise-retrofit-2.jpg", "/images/brise-seg-2.jpg", "/images/gal-8.jpg"],
   },
   {
     slug: "portoes-exclusivos",
     name: "Portões Exclusivos",
     tagline: "A primeira impressão da arquitetura.",
-    headerImage: "/images/prod-portoes.jpg",
+    headerImage: "/images/prt-portoes.jpg",
     intro: [
       "Portões personalizados, projetados como parte da identidade da fachada. Mais que um acesso, um elemento de composição que anuncia o padrão da obra.",
       "Desenvolvidos sob medida, em diálogo com o projeto arquitetônico.",
     ],
     applications: ["Residencial", "Corporativo", "Personalizado"],
-    gallery: ["/images/portao-2.jpg", "/images/prod-portas.jpg"],
+    gallery: ["/images/prt-portoes-2.jpg"],
   },
   {
     slug: "portas-arquitetonicas",
     name: "Portas Arquitetônicas",
     tagline: "Portas que se tornam destaque.",
-    headerImage: "/images/prod-portas.jpg",
+    headerImage: "/images/prt-portas.jpg",
     intro: [
       "Portas autorais que deixam de ser passagem e se tornam protagonistas. Pivotantes, de entrada ou internas — sempre tratadas como peça de design.",
       "O recorte a laser permite padrões impossíveis na serralheria convencional.",
     ],
     applications: ["Entrada", "Pivotantes", "Autorais"],
-    gallery: ["/images/prod-portoes.jpg", "/images/portao-2.jpg"],
+    gallery: [],
   },
   {
     slug: "guarda-corpos",
     name: "Guarda-Corpos",
     tagline: "Segurança com assinatura.",
-    headerImage: "/images/prod-guardacorpos.jpg",
+    headerImage: "/images/gcn-1.jpg",
     intro: [
       "Guarda-corpos que protegem e desenham o espaço, em aço, ferro e alumínio. Linhas que conversam com a arquitetura, sem o aspecto industrial da serralheria comum.",
       "Para escadas, sacadas e mezaninos, com a precisão e o acabamento de um ateliê.",
     ],
     applications: ["Escadas", "Sacadas", "Mezaninos"],
-    gallery: ["/images/gc-2.jpg", "/images/gc-3.jpg"],
+    gallery: ["/images/gcn-2.jpg", "/images/gcn-3.jpg", "/images/gcn-4.jpg"],
   },
   {
     slug: "pergolados",
     name: "Pergolados",
     tagline: "Sombreamento com design contemporâneo.",
-    headerImage: "/images/prod-pergolados.jpg",
+    headerImage: "/images/perg-main.jpg",
     intro: [
       "Pergolados que filtram a luz e criam atmosfera — proteção, luxo e conforto para áreas externas. O recorte projeta sombras que mudam ao longo do dia, transformando o ambiente.",
       "Ideais para áreas de piscina, lounges e espaços gourmet.",
     ],
     applications: ["Controle de luz", "Áreas externas", "Lounge", "Piscina"],
     gallery: [
+      "/images/perg-1b.jpg",
       "/images/gal-2.jpg",
       "/images/gal-3.jpg",
       "/images/gal-7.jpg",
@@ -114,7 +130,7 @@ export const PRODUCTS: Product[] = [
     slug: "objetos-de-decoracao",
     name: "Objetos de Decoração",
     tagline: "Arte metálica em escala íntima.",
-    headerImage: "/images/prod-objetos.jpg",
+    headerImage: "/images/obj-main.jpg",
     intro: [
       "Peças exclusivas que levam a assinatura Steel Arte para dentro do ambiente. Quadros metálicos, painéis decorativos e objetos autorais que dialogam com a arquitetura de interiores.",
       "Cada peça é única, criada para um espaço específico.",

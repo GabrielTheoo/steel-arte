@@ -50,8 +50,8 @@ export default function HistoriaPage() {
             </>
           }
           lead="Uma trajetória dedicada a transformar superfícies metálicas em peças autorais — onde desenho, técnica e arquitetura se encontram."
-          image="/images/corten-facade.jpg"
-          imageAlt="Fachada em aço corten com recorte orgânico a laser"
+          image="/images/nh-banner.jpg"
+          imageAlt="Painel metálico dourado com padrão de folhas vazado a laser"
         />
 
         {/* Manifesto de abertura */}

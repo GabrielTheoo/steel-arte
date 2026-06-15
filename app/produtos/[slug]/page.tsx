@@ -83,6 +83,56 @@ export default async function ProdutoPage({
           </div>
         </section>
 
+        {/* Variações / subtipos */}
+        {product.subtypes && product.subtypes.length > 0 && (
+          <section className="bg-ink-soft py-20 md:py-28">
+            <div className="mx-auto max-w-[1600px] px-6 md:px-12">
+              <Reveal>
+                <p className="label text-gold-soft">Variações da linha</p>
+                <h2 className="mt-5 font-display text-[clamp(1.8rem,3.5vw,2.8rem)] font-light leading-[1.1] tracking-[-0.01em] text-paper">
+                  Duas linhas, duas soluções.
+                </h2>
+              </Reveal>
+              <div className="mt-14 space-y-14 md:space-y-20">
+                {product.subtypes.map((s, i) => {
+                  const reversed = i % 2 === 1;
+                  return (
+                    <div
+                      key={s.name}
+                      className="grid items-center gap-10 md:grid-cols-2 md:gap-16"
+                    >
+                      <Reveal
+                        className={`relative aspect-[5/4] overflow-hidden ${
+                          reversed ? "md:order-2" : ""
+                        }`}
+                      >
+                        <Image
+                          src={s.img}
+                          alt={s.name}
+                          fill
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                          className="object-cover"
+                        />
+                      </Reveal>
+                      <Reveal delay={0.1} className={reversed ? "md:order-1" : ""}>
+                        <span className="font-display text-2xl font-light text-gold-soft/60">
+                          {`0${i + 1}`}
+                        </span>
+                        <h3 className="mt-3 font-display text-[clamp(1.8rem,3.2vw,2.6rem)] font-light leading-[1.1] tracking-[-0.01em] text-paper">
+                          {s.name}
+                        </h3>
+                        <p className="mt-5 max-w-[42ch] text-lg leading-relaxed text-paper/70">
+                          {s.desc}
+                        </p>
+                      </Reveal>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Galeria da linha */}
         {product.gallery.length > 0 && (
           <section className="bg-ink-soft py-20 md:py-28">

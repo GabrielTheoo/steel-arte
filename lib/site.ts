@@ -6,8 +6,7 @@ export const SITE = {
   instagram: "https://instagram.com/SteelArte",
   instagramHandle: "@SteelArte",
   facebook: "https://facebook.com/SteelArte",
-  // TODO: substituir pelo número real de WhatsApp (formato internacional, só dígitos)
-  whatsapp: "5500000000000",
+  whatsapp: "5511940054487",
   whatsappDisplay: "WhatsApp",
   whatsappMessage:
     "Olá! Vim pelo site e gostaria de conversar sobre um projeto em metal.",
