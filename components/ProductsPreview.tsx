@@ -36,7 +36,7 @@ const PRODUCTS: Product[] = [
     name: "Portões Exclusivos",
     line: "A primeira impressão da arquitetura.",
     href: "/produtos/portoes-exclusivos",
-    img: "/images/prt-portoes.jpg",
+    img: "/images/prt-portoes-2.jpg",
     span: "sm:col-span-6 lg:col-span-4",
   },
   {

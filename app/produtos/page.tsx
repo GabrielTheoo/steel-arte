@@ -53,7 +53,7 @@ const CATEGORIES: Category[] = [
     line: "A primeira impressão da arquitetura — projetados como parte da identidade da fachada.",
     tags: ["Residencial", "Corporativo", "Personalizado"],
     href: "/produtos/portoes-exclusivos",
-    img: "/images/prt-portoes.jpg",
+    img: "/images/prt-portoes-2.jpg",
   },
   {
     n: "05",

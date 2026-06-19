@@ -75,13 +75,13 @@ export const PRODUCTS: Product[] = [
     slug: "portoes-exclusivos",
     name: "Portões Exclusivos",
     tagline: "A primeira impressão da arquitetura.",
-    headerImage: "/images/prt-portoes.jpg",
+    headerImage: "/images/prt-portoes-2.jpg",
     intro: [
       "Portões personalizados, projetados como parte da identidade da fachada. Mais que um acesso, um elemento de composição que anuncia o padrão da obra.",
       "Desenvolvidos sob medida, em diálogo com o projeto arquitetônico.",
     ],
     applications: ["Residencial", "Corporativo", "Personalizado"],
-    gallery: ["/images/prt-portoes-2.jpg", "/images/prt-portoes-3.jpg", "/images/prod-portoes.jpg"],
+    gallery: ["/images/prt-portoes-3.jpg", "/images/prt-portoes.jpg", "/images/prod-portoes.jpg"],
   },
   {
     slug: "portas-arquitetonicas",
