@@ -37,6 +37,20 @@ const ITEMS: GalleryItem[] = [
   { src: "/images/prod-portoes.jpg", alt: "Portão com recorte floral", tags: ["Fachadas", "Residencial"] },
   { src: "/images/prod-portas.jpg", alt: "Porta arquitetônica recortada a laser", tags: ["Fachadas", "Residencial"] },
   { src: "/images/portao-2.jpg", alt: "Entrada com painel metálico", tags: ["Fachadas", "Residencial"] },
+  // Fotos novas (acervo do cliente)
+  { src: "/images/nh-banner.jpg", alt: "Painel dourado com poltronas", tags: ["Interiores", "Residencial"] },
+  { src: "/images/brise-seg-1.jpg", alt: "Fachada com brise de segurança", tags: ["Fachadas", "Residencial"] },
+  { src: "/images/brise-retrofit.jpg", alt: "Brise retrofit de fachada", tags: ["Fachadas", "Residencial"] },
+  { src: "/images/brise-personalizado.jpg", alt: "Brise personalizado em fachada", tags: ["Fachadas", "Residencial"] },
+  { src: "/images/brises-correr.jpg", alt: "Brises de correr com sombras", tags: ["Interiores"] },
+  { src: "/images/gcn-2.jpg", alt: "Guarda-corpo em aço corten", tags: ["Residencial"] },
+  { src: "/images/gcn-1.jpg", alt: "Guarda-corpo perfurado em sacada", tags: ["Residencial"] },
+  { src: "/images/prt-portoes.jpg", alt: "Portão exclusivo recortado a laser", tags: ["Fachadas", "Residencial"] },
+  { src: "/images/perg-main.jpg", alt: "Pergolado projetando sombras", tags: ["Áreas Gourmet"] },
+  { src: "/images/perg-1b.jpg", alt: "Pergolado em corredor externo", tags: ["Áreas Gourmet"] },
+  { src: "/images/deco-1.jpg", alt: "Mandala decorativa em aço corten", tags: ["Interiores"] },
+  { src: "/images/deco-4.jpg", alt: "Biombo decorativo em aço corten", tags: ["Áreas Gourmet", "Interiores"] },
+  { src: "/images/prt-portas.jpg", alt: "Porta arquitetônica recortada a laser", tags: ["Residencial"] },
 ];
 
 export default function GaleriaPage() {
@@ -53,8 +67,9 @@ export default function GaleriaPage() {
             </>
           }
           lead="Projetos residenciais e corporativos onde nossos painéis se tornaram parte da obra. Clique para ampliar."
-          image="/images/brise-3.jpg"
-          imageAlt="Fachada metálica perfurada iluminada"
+          image="/images/nh-banner.jpg"
+          imageAlt="Painel metálico dourado vazado a laser com poltronas"
+          imagePosition="center 78%"
         />
 
         <section className="bg-ink py-16 md:py-24">

@@ -7,9 +7,17 @@ type Props = {
   lead?: string;
   image?: string;
   imageAlt?: string;
+  imagePosition?: string;
 };
 
-export default function PageHeader({ eyebrow, title, lead, image, imageAlt }: Props) {
+export default function PageHeader({
+  eyebrow,
+  title,
+  lead,
+  image,
+  imageAlt,
+  imagePosition = "center",
+}: Props) {
   return (
     <header className="relative overflow-hidden bg-ink-soft">
       {image && (
@@ -21,7 +29,8 @@ export default function PageHeader({ eyebrow, title, lead, image, imageAlt }: Pr
               fill
               priority
               sizes="100vw"
-              className="object-cover object-center"
+              style={{ objectPosition: imagePosition }}
+              className="object-cover"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/55" />

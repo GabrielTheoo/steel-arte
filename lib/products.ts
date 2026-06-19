@@ -141,7 +141,13 @@ export const PRODUCTS: Product[] = [
       "Cada peça é única, criada para um espaço específico.",
     ],
     applications: ["Quadros metálicos", "Painéis decorativos", "Peças exclusivas"],
-    gallery: ["/images/gal-4.jpg", "/images/obj-2.jpg", "/images/obj-3.jpg"],
+    gallery: [
+      "/images/deco-1.jpg",
+      "/images/deco-2.jpg",
+      "/images/deco-3.jpg",
+      "/images/deco-4.jpg",
+      "/images/deco-5.jpg",
+    ],
   },
 ];
 

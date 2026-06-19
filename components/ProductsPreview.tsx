@@ -50,7 +50,7 @@ const PRODUCTS: Product[] = [
     name: "Guarda-Corpos",
     line: "Segurança com assinatura.",
     href: "/produtos/guarda-corpos",
-    img: "/images/gcn-1.jpg",
+    img: "/images/gcn-2.jpg",
     span: "sm:col-span-6 lg:col-span-5",
   },
   {
