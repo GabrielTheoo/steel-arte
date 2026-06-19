@@ -103,8 +103,8 @@ export default function ProdutosPage() {
             </>
           }
           lead="Oito linhas de criação em metal, todas desenvolvidas sob medida — do conceito ao acabamento premium."
-          image="/images/gal-5.jpg"
-          imageAlt="Fachada em aço corten com recorte orgânico a laser"
+          image="/images/paineis-1.jpg"
+          imageAlt="Fachada com painéis artísticos de folhas vazadas a laser"
         />
 
         <section className="bg-ink">

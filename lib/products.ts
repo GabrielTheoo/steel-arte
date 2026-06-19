@@ -22,13 +22,7 @@ export const PRODUCTS: Product[] = [
       "Trabalhamos com aço corten, aço galvanizado com pintura eletrostática e acabamentos premium, garantindo durabilidade e presença estética em qualquer ambiente.",
     ],
     applications: ["Fachadas", "Halls de entrada", "Áreas gourmet", "Ambientes corporativos", "Hotéis"],
-    gallery: [
-      "/images/paineis-2.jpg",
-      "/images/paineis-3.jpg",
-      "/images/prod-paineis.jpg",
-      "/images/paineis-4.jpg",
-      "/images/gal-5.jpg",
-    ],
+    gallery: ["/images/paineis-2.jpg", "/images/paineis-3.jpg"],
   },
   {
     slug: "divisorias-decorativas",
@@ -87,7 +81,7 @@ export const PRODUCTS: Product[] = [
       "Desenvolvidos sob medida, em diálogo com o projeto arquitetônico.",
     ],
     applications: ["Residencial", "Corporativo", "Personalizado"],
-    gallery: ["/images/prt-portoes-2.jpg", "/images/prod-portoes.jpg"],
+    gallery: ["/images/prt-portoes-2.jpg", "/images/prt-portoes-3.jpg", "/images/prod-portoes.jpg"],
   },
   {
     slug: "portas-arquitetonicas",

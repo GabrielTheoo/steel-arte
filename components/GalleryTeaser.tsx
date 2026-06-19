@@ -6,11 +6,11 @@ const SHOTS = [
   { img: "/images/gal-1.jpg", cap: "Divisória corten · Interiores" },
   { img: "/images/gal-2.jpg", cap: "Pergolado · Área de piscina" },
   { img: "/images/gal-4.jpg", cap: "Painel decorativo · Detalhe" },
-  { img: "/images/gal-5.jpg", cap: "Fachada corten · Residencial" },
+  { img: "/images/paineis-1.jpg", cap: "Fachada de folhas · Residencial" },
   { img: "/images/gal-3.jpg", cap: "Pergolado · Área gourmet" },
   { img: "/images/gal-6.jpg", cap: "Divisória · Áreas externas" },
   { img: "/images/gal-7.jpg", cap: "Pergolado · Lounge" },
-  { img: "/images/gal-8.jpg", cap: "Fachada perfurada · Corporativo" },
+  { img: "/images/brise-seg-1.jpg", cap: "Fachada · Corporativo" },
 ];
 
 export default function GalleryTeaser() {

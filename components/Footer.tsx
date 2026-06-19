@@ -119,11 +119,29 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col gap-3 border-t border-paper/10 pt-8 text-[0.7rem] text-paper/40 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {2026} Steel Arte. Todos os direitos reservados.
-          </p>
-          <p className="label text-[0.58rem]">{SITE.tagline}</p>
+        <div className="mt-16 border-t border-paper/10 pt-8">
+          {/* Versículo — canto inferior esquerdo */}
+          <figure className="max-w-md">
+            <p
+              dir="rtl"
+              lang="he"
+              className="text-right font-display text-lg leading-relaxed text-gold-soft/80"
+            >
+              גֹּ֣ל אֶל־יְהוָ֣ה מַעֲשֶׂ֑יךָ וְ֝יִכֹּ֗נוּ מַחְשְׁבֹתֶֽיךָ
+            </p>
+            <blockquote className="mt-3 text-left text-[0.8rem] italic leading-relaxed text-paper/55">
+              “Consagre ao Senhor tudo o que você faz, e os seus planos serão
+              bem-sucedidos.”
+            </blockquote>
+            <figcaption className="label mt-2 text-left text-[0.56rem] text-paper/40">
+              Provérbios 16:3
+            </figcaption>
+          </figure>
+
+          <div className="mt-10 flex flex-col gap-3 text-[0.7rem] text-paper/40 sm:flex-row sm:items-center sm:justify-between">
+            <p>© {2026} Steel Arte. Todos os direitos reservados.</p>
+            <p className="label text-[0.58rem]">{SITE.tagline}</p>
+          </div>
         </div>
       </div>
     </footer>

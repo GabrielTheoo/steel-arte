@@ -56,8 +56,8 @@ export default function ArquitetosPage() {
             </>
           }
           lead="Trabalhamos lado a lado com escritórios de arquitetura para transformar conceito em peça executável."
-          image="/images/gal-1.jpg"
-          imageAlt="Painel em aço corten com recorte arabesco em ambiente interno"
+          image="/images/arq-capa.jpg"
+          imageAlt="Painel em aço corten com padrão de tecnologia, projeto CASA COR"
         />
 
         {/* Intro */}
@@ -133,6 +133,34 @@ export default function ArquitetosPage() {
                 pronta para instalar — com a documentação técnica que o seu
                 caderno de especificações exige.
               </p>
+            </Reveal>
+          </div>
+        </section>
+
+        {/* Vídeo CASA COR */}
+        <section className="bg-ink-soft py-24 md:py-32">
+          <div className="mx-auto max-w-[1100px] px-6 md:px-12">
+            <Reveal>
+              <p className="label text-gold-soft">Projetos · CASA COR</p>
+              <h2 className="mt-5 max-w-[22ch] font-display text-[clamp(1.9rem,4vw,3.2rem)] font-light leading-[1.1] tracking-[-0.01em] text-paper">
+                Veja nossos painéis em projetos reais.
+              </h2>
+              <p className="mt-6 max-w-[44rem] text-lg leading-relaxed text-paper/70">
+                Um panorama da participação da Steel Arte na CASA COR, onde os
+                painéis ganham escala e protagonismo na arquitetura.
+              </p>
+            </Reveal>
+            <Reveal delay={0.1} className="mt-10 overflow-hidden border border-paper/10">
+              <video
+                controls
+                playsInline
+                preload="metadata"
+                poster="/images/arq-capa.jpg"
+                className="aspect-video w-full bg-ink"
+              >
+                <source src="/videos/casacor.mp4" type="video/mp4" />
+                Seu navegador não suporta a reprodução de vídeo.
+              </video>
             </Reveal>
           </div>
         </section>
