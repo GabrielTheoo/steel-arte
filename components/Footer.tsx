@@ -117,11 +117,9 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
 
-        <div className="mt-16 border-t border-paper/10 pt-8">
-          {/* Versículo — canto inferior esquerdo */}
-          <figure className="max-w-md">
+          {/* Versículo — área central do rodapé */}
+          <figure className="col-span-2 mt-6 self-center md:col-span-7 md:col-start-6 md:mt-0">
             <p
               dir="rtl"
               lang="he"
@@ -137,11 +135,11 @@ export default function Footer() {
               Provérbios 16:3
             </figcaption>
           </figure>
+        </div>
 
-          <div className="mt-10 flex flex-col gap-3 text-[0.7rem] text-paper/40 sm:flex-row sm:items-center sm:justify-between">
-            <p>© {2026} Steel Arte. Todos os direitos reservados.</p>
-            <p className="label text-[0.58rem]">{SITE.tagline}</p>
-          </div>
+        <div className="mt-16 flex flex-col gap-3 border-t border-paper/10 pt-8 text-[0.7rem] text-paper/40 sm:flex-row sm:items-center sm:justify-between">
+          <p>© {2026} Steel Arte. Todos os direitos reservados.</p>
+          <p className="label text-[0.58rem]">{SITE.tagline}</p>
         </div>
       </div>
     </footer>

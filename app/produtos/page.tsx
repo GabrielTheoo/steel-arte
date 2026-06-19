@@ -103,8 +103,8 @@ export default function ProdutosPage() {
             </>
           }
           lead="Oito linhas de criação em metal, todas desenvolvidas sob medida — do conceito ao acabamento premium."
-          image="/images/paineis-1.jpg"
-          imageAlt="Fachada com painéis artísticos de folhas vazadas a laser"
+          image="/images/prod-capa.jpg"
+          imageAlt="Pátio com pergolado em metal projetando sombras de folhas"
         />
 
         <section className="bg-ink">
