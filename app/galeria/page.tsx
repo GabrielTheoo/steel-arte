@@ -62,9 +62,8 @@ export default function GaleriaPage() {
             </>
           }
           lead="Projetos residenciais e corporativos onde nossos painéis se tornaram parte da obra. Clique para ampliar."
-          image="/images/nh-banner.jpg"
-          imageAlt="Painel metálico dourado vazado a laser com poltronas"
-          imagePosition="center 78%"
+          image="/images/gal-capa.jpg"
+          imageAlt="Painel dourado de folhas vazado a laser com poltronas"
         />
 
         <section className="bg-ink py-16 md:py-24">

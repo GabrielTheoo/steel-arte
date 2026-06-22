@@ -36,14 +36,14 @@ const PRODUCTS: Product[] = [
     name: "Portões Exclusivos",
     line: "A primeira impressão da arquitetura.",
     href: "/produtos/portoes-exclusivos",
-    img: "/images/prt-portoes-2.jpg",
+    img: "/images/prt-portoes.jpg",
     span: "sm:col-span-6 lg:col-span-4",
   },
   {
     name: "Portas Arquitetônicas",
     line: "Portas que se tornam destaque.",
     href: "/produtos/portas-arquitetonicas",
-    img: "/images/prt-portas.jpg",
+    img: "/images/prt-portoes-2.jpg",
     span: "sm:col-span-6 lg:col-span-4",
   },
   {

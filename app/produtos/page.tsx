@@ -53,7 +53,7 @@ const CATEGORIES: Category[] = [
     line: "A primeira impressão da arquitetura — projetados como parte da identidade da fachada.",
     tags: ["Residencial", "Corporativo", "Personalizado"],
     href: "/produtos/portoes-exclusivos",
-    img: "/images/prt-portoes-2.jpg",
+    img: "/images/prt-portoes.jpg",
   },
   {
     n: "05",
@@ -61,7 +61,7 @@ const CATEGORIES: Category[] = [
     line: "Portas que deixam de ser passagem e se tornam protagonista do projeto.",
     tags: ["Entrada", "Pivotantes", "Autorais"],
     href: "/produtos/portas-arquitetonicas",
-    img: "/images/prt-portas.jpg",
+    img: "/images/prt-portoes-2.jpg",
   },
   {
     n: "06",
@@ -69,7 +69,7 @@ const CATEGORIES: Category[] = [
     line: "Segurança com assinatura — protegem e desenham o espaço em aço, ferro e alumínio.",
     tags: ["Escadas", "Sacadas", "Mezaninos"],
     href: "/produtos/guarda-corpos",
-    img: "/images/gcn-1.jpg",
+    img: "/images/gcn-2.jpg",
   },
   {
     n: "07",
