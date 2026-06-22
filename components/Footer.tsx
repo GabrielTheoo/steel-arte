@@ -127,11 +127,11 @@ export default function Footer() {
             >
               גֹּ֣ל אֶל־יְהוָ֣ה מַעֲשֶׂ֑יךָ וְ֝יִכֹּ֗נוּ מַחְשְׁבֹתֶֽיךָ
             </p>
-            <blockquote className="mt-3 text-left text-[0.8rem] italic leading-relaxed text-paper/55">
+            <blockquote className="mt-3 text-right text-[0.8rem] italic leading-relaxed text-paper/55">
               “Consagre ao Senhor tudo o que você faz, e os seus planos serão
               bem-sucedidos.”
             </blockquote>
-            <figcaption className="label mt-2 text-left text-[0.56rem] text-paper/40">
+            <figcaption className="label mt-2 text-right text-[0.56rem] text-paper/40">
               Provérbios 16:3
             </figcaption>
           </figure>
